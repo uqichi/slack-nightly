@@ -16,10 +16,6 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #09F;
-   --text: #DDD;
-   --background: #111;
-   --background-elevated: #222;
    --primary: #CCC;
    --text: #999;
    --background: #222;
@@ -1509,4 +1505,3 @@ ts-jumper .p-jumper__help {
 #user_groups_container .mention {
     background-color: var(--background-hover);
 }
-

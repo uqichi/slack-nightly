@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", function() {
    let customCustomCSS = `
    :root {
       /* Modify these to change your theme colors: */
-      --primary: #09F;
-      --text: #CCC;
-      --background: #080808;
-      --background-elevated: #222;
+      --primary: #CCC;
+      --text: #999;
+      --background: #222;
+      --background-elevated: #444;
    }
    `
 

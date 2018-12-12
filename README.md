@@ -3,8 +3,17 @@ make slack appearance to dark mode.
 
 https://github.com/widget-/slack-black-theme
 
-## Applying
+## How to use
 
+Deploy:
+
+```console
+make cp
 ```
-./darken.sh
+
+Undeploy:
+
+
+```console
+make rm
 ```

@@ -1,7 +1,7 @@
 #! /bin/bash
 
 cat << 'EOF' >> /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
-// Add
+//>>>>>slack-nightly
 // First make sure the wrapper app is loaded
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -48,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function() {
       });
    });
 });
+//<<<<<slack-nightly
 EOF
-
-echo If Slack.app is already running, You must refresh
 
